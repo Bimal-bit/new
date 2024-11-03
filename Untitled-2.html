@@ -1,0 +1,105 @@
+
+  </style><!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        overflow: hidden;
+      }
+  
+      .fire-container {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #111;
+        z-index: -1;
+      }
+  
+      .fire-animation {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+        opacity: 0.5;
+        animation: flicker 0.2s infinite alternate;
+      }
+  
+      @keyframes flicker {
+        0% {
+          opacity: 0.4;
+        }
+        100% {
+          opacity: 0.6;
+        }
+      }
+  
+      .login-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+      }
+  
+      .login-box {
+        width: 300px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+  
+      .login-box h2 {
+        margin-bottom: 20px;
+      }
+  
+      .login-box input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+  
+      .login-box button {
+        width: 100%;
+        padding: 10px;
+        background: #ff0000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fire-container">
+      <div class="fire-animation"></div>
+    </div>
+  
+    <div class="login-container">
+      <div class="login-box">
+        <h2>Login</h2>
+        <form>
+          <input type="text" placeholder="Username" required>
+          <input type="password" placeholder="Password" required>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  </html>
+  
+</head>
+<body>
+  <!-- Your HTML content goes here -->
+  <h1>Welcome to My Website</h1>
+  <p>This is an example with a background image.</p>
+</body>
+</html>
